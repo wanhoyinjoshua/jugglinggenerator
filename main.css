@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
    
-    
+    background-color: honeydew;
 
     
 
@@ -24,7 +24,24 @@
 }
 
 #shuufle{
-    width:auto
+    width:300px;
+    height: 100px;
+}
+p{
+    position: relative;
+}
+#genertae{
+    margin-top: 70px;
+    width:300px;
+    height: 80px;
+}
+
+#shuuflewrap{
+   
+}
+
+strong{
+    font: red;
 }
 #changeee{
    width: 80%;
@@ -51,11 +68,14 @@
     margin: auto;
     display: grid;
     justify-content: center;
-    font-size: 50px;
+    font-size: 100px;
     
     
 }
-
+#textinput{
+    height: 50px;
+    color: grey;
+}
 .wrap {
    
     display: block;
