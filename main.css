@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: none;
+   
     
 
     
@@ -9,6 +9,22 @@
 }
 *:focus {
     outline: 0;
+}
+
+.document{
+    height: 200px;
+}
+.document > *{
+    height: 50%;
+    font: 50px;
+}
+
+#no{
+    font-size: 20px;
+}
+
+#shuufle{
+    width:auto
 }
 #changeee{
    width: 80%;
