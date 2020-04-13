@@ -1,4 +1,4 @@
-var list = ["sitdown","one leg","look at different backgrounds","juggle with socks", "height of the toss", "juggle with one eye close"]
+var list = ["sitdown","look at different backgrounds", "height of the toss: high toss ","height of the toss: low toss "]
 var ran = Math.random()*list.length;
 console.log(ran); 
 var gen = Math.floor(ran);
@@ -93,8 +93,8 @@ function generate(){
 
     Good Job Tim !!!!!!<br><br>
     Your totaal attmept in this session is <strong>${numdata.length}</strong> <br><br>
-    Your total no of catches in this session is <strong> ${total}(${total/6} cycles) </strong><br><br>
-    Your avergae no of catches in this session is <strong>${average}(${average/6} cycles)</strong>`
+    Your total no of catches in this session is <strong> ${total}(${Math.round(total/6)} cycles) </strong><br><br>
+    Your avergae no of catches in this session is <strong>${Math.round(average*10)/10}(${Math.round(average/6)} cycles)</strong>`
 
 
     data.splice(0,1) ;
@@ -115,6 +115,7 @@ function generate(){
 for (let i =0 ; i <data.length;i++){
     let p = document.createElement("p");
     p.innerHTML= `${data[i]}`
+    p.classList.add("pop");
     document.body.append(p);
     }
 
