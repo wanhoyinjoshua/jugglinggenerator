@@ -108,7 +108,14 @@ function generate(){
    let  textinput = document.getElementById("textinput")
 
    textinput.parentNode.removeChild( textinput)
-  
+
+   let piclist = ["j.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"]
+   let changepic = document.getElementById("changeee")
+   var encour= document.createElement("img") 
+   encour.src=`${piclist[Math.round(Math.random()*piclist.length)]}`
+   encour.classList.add("picformat");
+   changepic.append(encour);
+
 
   
 

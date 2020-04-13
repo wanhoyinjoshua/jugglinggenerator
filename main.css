@@ -7,10 +7,15 @@
     
 
 }
+.picformat{
+    margin-top: 50px;
+    width: 95%;
+    height: auto;
+}
 
 .pop{
     text-align: center;
-    
+
 }
 *:focus {
     outline: 0;
