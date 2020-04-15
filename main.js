@@ -94,7 +94,7 @@ function generate(){
     Good Job Tim !!!!!!<br><br>
     Your totaal attmept in this session is <strong>${numdata.length}</strong> <br><br>
     Your total no of catches in this session is <strong> ${total}(${Math.round(total/6)} cycles) </strong><br><br>
-    Your avergae no of catches in this session is <strong>${Math.round(average*10)/10}(${Math.round(average/6)} cycles)</strong>`
+    Your avergae no of catches in this session is <strong>${Math.round(average*10)/10}(${Math.round(average/6*10)/10} cycles)</strong>`
 
 
     data.splice(0,1) ;
