@@ -1,4 +1,4 @@
-var list = ["sitdown","look at different backgrounds", "height of the toss: high toss ","height of the toss: low toss "]
+var list = ["sitdown","look at different backgrounds", "height of the toss: high toss ","height of the toss: low toss ","juggle with socks(new addition)","focus on the figure 8 pattern tim","throw to the corner of the box !!"]
 var ran = Math.random()*list.length;
 console.log(ran); 
 var gen = Math.floor(ran);
