@@ -1,4 +1,4 @@
-var list = ["sitdown","look at different backgrounds", "height of the toss: high toss ","height of the toss: low toss ","juggle with socks(new addition)","focus on the figure 8 pattern tim","throw to the corner of the box !!"]
+var list = ["sitdown","look at different backgrounds", "height of the toss: high toss ","height of the toss: low toss ","juggle with socks(new addition)","focus on the figure 8 pattern tim","throw to the corner of the box !!", "juggle with one leg (left)","juggle with one leg(right)", "juggle with one eyes closed","juggle with a one ball and two socks"]
 var ran = Math.random()*list.length;
 console.log(ran); 
 var gen = Math.floor(ran);
